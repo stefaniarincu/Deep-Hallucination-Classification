@@ -9,7 +9,7 @@ At the beggining of the competition we recieved a set of 12,000 image files for 
 ## Model Development
 
 ### KNN
-I started with a simple K-Nearest Neighbours (__KNN__) model, for which yielded an accuracy score of __21.1%__. I used the model by importing it from the _scikit-learn_ library, and then I just adjusted parameters such as the number of neighbors and the distance computation method to optimize its performance.
+I started with a simple K-Nearest Neighbors (__KNN__) model, for which yielded an accuracy score of __21.1%__. I used the model by importing it from the _scikit-learn_ library, and then I just adjusted parameters such as the number of neighbors and the distance computation method to optimize its performance.
 
 ### CNN
 Furthermore, to achieve improved performance, I designed, implemented, and trained two different Convolutional Neural Network (__CNN__) models using _TensorFlow_ and _Keras_ libraries. These models were designed to leverage the hierarchical pattern recognition capabilities inherent in CNNs, enabling them to capture complex features in the image data and achieve better classification accuracy.
